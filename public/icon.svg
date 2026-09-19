@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4ec0ca" />
+      <stop offset="100%" stop-color="#70c5ce" />
+    </linearGradient>
+    <filter id="pixelShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="4" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <!-- Background circle for maskable and any icon standard -->
+  <rect width="512" height="512" rx="104" fill="url(#skyGrad)" />
+  
+  <!-- Clouds background decoration -->
+  <path d="M 80 400 Q 110 370 150 370 Q 180 340 220 350 Q 260 350 280 390 Q 300 390 310 410 L 80 410 Z" fill="#ffffff" opacity="0.6"/>
+  <path d="M 280 430 Q 320 390 370 400 Q 420 370 460 410 L 280 430 Z" fill="#ffffff" opacity="0.6"/>
+
+  <!-- Flappy Bird character -->
+  <g transform="translate(116, 126) scale(8)" filter="url(#pixelShadow)">
+    <!-- Bird Body Outline & Fill (Pixel art vector) -->
+    <!-- Outer Black Border -->
+    <path d="M 8 3 H 26 V 5 H 28 V 9 H 32 V 13 H 34 V 21 H 30 V 23 H 28 V 25 H 10 V 23 H 6 V 21 H 4 V 17 H 2 V 9 H 4 V 5 H 8 V 3 Z" fill="#543847" />
+    
+    <!-- Yellow Main Body -->
+    <path d="M 8 5 H 24 V 9 H 26 V 11 H 20 V 17 H 18 V 19 H 24 V 21 H 26 V 23 H 12 V 21 H 8 V 19 H 6 V 17 H 4 V 9 H 6 V 7 H 8 V 5 Z" fill="#f8e038" />
+    <!-- Yellow Highlight Top -->
+    <path d="M 10 5 H 22 V 7 H 10 Z" fill="#fff980" />
+    <!-- Yellow Shadow Bottom -->
+    <path d="M 12 19 H 24 V 21 H 12 Z" fill="#e8a810" />
+
+    <!-- Big White Eye -->
+    <path d="M 16 5 H 26 V 7 H 28 V 13 H 26 V 15 H 16 V 13 H 14 V 7 H 16 V 5 Z" fill="#ffffff" />
+    <!-- Black Pupil -->
+    <path d="M 22 7 H 26 V 13 H 22 Z" fill="#000000" />
+    <path d="M 23 8 H 25 V 10 H 23 Z" fill="#ffffff" />
+
+    <!-- Belly White/Cream -->
+    <path d="M 4 11 H 10 V 17 H 4 Z" fill="#ffffff" />
+
+    <!-- Wing (Orange/White) -->
+    <path d="M 6 11 H 14 V 17 H 16 V 19 H 8 V 17 H 6 Z" fill="#ffffff" stroke="#543847" stroke-width="1.2" />
+
+    <!-- Beak (Orange/Red) -->
+    <path d="M 24 13 H 32 V 15 H 34 V 19 H 24 V 17 H 22 V 13 Z" fill="#f85820" />
+    <path d="M 24 17 H 32 V 19 H 24 Z" fill="#d83800" stroke="#543847" stroke-width="0.8" />
+  </g>
+</svg>

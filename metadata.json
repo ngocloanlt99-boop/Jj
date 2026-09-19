@@ -1,0 +1,6 @@
+{
+  "name": "Flappy Bird Android",
+  "description": "Game Flappy Bird kinh điển được thiết kế riêng cho Android với cảm ứng mượt mà, rung haptic, âm thanh 8-bit và hỗ trợ cài đặt PWA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
